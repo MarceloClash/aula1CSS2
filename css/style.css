@@ -1,0 +1,41 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Honk", system-ui;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(228, 94, 94, 0.908000700280112) 35%,
+    rgba(139, 205, 228, 1) 86%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body{
+    background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(228, 94, 94, 0.908000700280112) 35%,
+    rgba(139, 205, 228, 1) 86%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
